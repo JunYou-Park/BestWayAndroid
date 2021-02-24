@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account"
+    app:startDestination="@id/accountFrag">
+
+    <fragment
+        android:id="@+id/accountFrag"
+        android:name="com.yawtseb.bestway.ui.frag.account.AccountFrag"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFrag_to_appInfoFrag"
+            app:destination="@id/appInfoFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/appInfoFrag"
+        android:name="com.yawtseb.bestway.ui.frag.account.AppInfoFrag"
+        android:label="fragment_app_info"
+        tools:layout="@layout/fragment_app_info" />
+    <fragment
+        android:id="@+id/signUpFrag_account"
+        android:name="com.yawtseb.bestway.ui.frag.singup.SignUpFrag"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+</navigation>
