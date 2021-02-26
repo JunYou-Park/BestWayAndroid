@@ -31,8 +31,8 @@ interface ApiService {
     fun signIn(@Field("data") data: JsonObject): Observable<DataResult>
 
     @FormUrlEncoded
-    @POST("${USER_API}/post_sign_up.do")
-    fun signUp(@Field("data") data: JsonObject):Observable<DataResult>
+    @PUT("${USER_API}/post_sign_up.do")
+    fun signUp(@Body data: JsonObject):Observable<DataResult>
 
     @FormUrlEncoded
     @POST("${FCM_API}/get_notice.do")
