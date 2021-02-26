@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BestWay</string>
+    <string name="home">홈</string>
+    <string name="diet">식단</string>
+    <string name="meal_ticket">식권</string>
+    <string name="user">계정</string>
+    <string name="k_won">원</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="network_disconnected_and_retry">네트워크 상태를 확인 후 다시 시도해주세요.</string>
+    <string name="no_diet">오늘 식단이 없습니다.</string>
+    <string name="error_input_email">잘못된 이메일입니다.</string>
+    <string name="error_input_password_form">비밀번호 형식이 맞지 않습니다.</string>
+    <string name="go_to_sign_in"><u>로그인 하러 가기</u></string>
+    <string name="input_name">이름 입력</string>
+    <string name="plz_input_name">이름을 입력해주세요.</string>
+    <string name="input_id_email">아이디(이메일) 입력</string>
+    <string name="input_password">비밀번호 입력</string>
+    <string name="login">로그인</string>
+    <string name="plz">을 해주세요.</string>
+    <string name="sign_up">회원가입</string>
+    <string name="sign_in_comment_1">아직 회원이 아니신가요?</string>
+    <string name="input_phone_number">휴대폰 번호 입력</string>
+    <string name="error_input_name">잘못된 이름입니다.</string>
+    <string name="error_password_format">영문, 숫자, 특수문자를 포함 8자 이상을 입력해주세요.</string>
+    <string name="error_input_phone_number">휴대폰 번호가 올바르지 않습니다.</string>
+    <string name="plz_input_password">비밀번호를 입력해주세요.</string>
+    <string name="plz_input_id_email">아이디(이메일)을 입력해주세요.</string>
+    <string name="plz_click_sign_up">회원가입을 클릭해주세요.</string>
+    <string name="plz_input_phone_number">휴대폰 번호를 입력해주세요.</string>
+    <string name="email_authentication_title">가입하신 이메일로 인증 메일을 전송하였습니다.</string>
+    <string name="confirm">확인</string>
+    <string name="error_get_ticket">식권을 불러오지 못했습니다.</string>
+    <string name="now_create_qr">바로 QR 생성</string>
+
+    <string name="view_cart">장바구니 보기</string>
+    <string name="check_purchase_list">구매내역 확인</string>
+    <string name="modify_account_manage">계정 관리</string>
+    <string name="change_account_info">계정정보 변경</string>
+    <string name="logout">로그아웃</string>
+    <string name="withdrawal">회원탈퇴</string>
+    <string name="app_info">앱 정보</string>
+    <string name="open_source_licenses">오픈소스 라이선스</string>
+    <string name="need_sign_in_exist">로그인이 필요한 기능이 있습니다.</string>
+    <string name="need_sign_in">로그인이 필요한 기능입니다.</string>
+    <string name="logout_question">로그아웃 하시겠습니까?</string>
+    <string name="withdrawal_question">회원탈퇴를 진행하면 기존에 있던 식권을 사라지게 됩니다. 탈퇴하시겠습니까?</string>
+    <string name="cancel">취소</string>
+    <string name="fail_update_session">세션 변경에 실패했습니다.</string>
+    <string name="login_state">로그인 상태입니다.</string>
+    <string name="plz_qr_scan">QR 스캔이 원활하게 될 수 있도록 밝기를 조절해주세요.</string>
+    <string name="total_blank_cost">총 액</string>
+    <string name="buy">구매하기</string>
+    <string name="need_pin_code_make_pin_code">핀 코드를 생성해야 사용할 수 있는 기능입니다. 핀 코드를 생성하시겠습니까?</string>
+    <string name="plz_input_pin_code">핀 코드 비밀번호를 입력해주세요.</string>
+    <string name="re_plz_input_pin_code">핀 코드 비밀번호를 다시 입력해주세요.</string>
+    <string name="error_equal_pin_code">핀 코드 비밀번호가 일치하지 않습니다.</string>
+    <string name="already_sign_in_sign_out">기존에 로그인한 유저가 있습니다. 로그아웃 하시겠습니까?</string>
+    <string name="error_occur">알 수 없는 에러가 발생했습니다.</string>
+</resources>
